@@ -1,0 +1,124 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background: #1c2e33;
+  }
+
+  .footer{
+    position: absolute;
+    background: #fff;
+    bottom: 0;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .Container{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    padding: 0.5rem;
+    color: black;
+
+  }
+
+  .name{
+    width: 25%;
+  }
+
+  .call{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 25%;
+      
+  }
+
+  .others{
+      display: flex;
+      justify-content: space-around;
+      width: 33%;
+      align-items: center;
+  }
+  
+  .heading{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: #fff;
+  }
+  
+  
+
+  .fas , .far{
+      color:rgb(126, 101, 101);
+  }
+
+  .present{
+      font-size: 0.7rem;
+      border-radius: 2px;
+      padding:2px 3px;
+      height: 12px;
+  }
+
+  .mic, .video{
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    background: rgb(192, 25, 25);
+    border-radius: 50%;
+    color: white;
+ }
+ .fa-microphone-slash, .fa-video-slash{
+     color: #fff;
+ }
+
+ .phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* padding: 1rem; */
+     border-radius: 50%;
+     border: 1px solid grey;
+     width: 4rem;
+     height: 4rem;
+ }
+
+ .caption-main{
+     display: flex;
+     flex-direction: column;
+     width: 10rem;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .caption-main span{
+     font-size: 14px;
+ }
+
+ .present{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.arrow-up{
+    font-size: 14px;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+
+.present span{
+    font-size: 14px;
+}
